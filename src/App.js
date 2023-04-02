@@ -6,6 +6,15 @@ import FicheLogement from "./pages/FicheLogement/FicheLogement";
 import Footer from "./components/Footer/Footer";
 import Error from "./pages/Error/Error.jsx";
 
+//Ce code React est une application React qui contient un composant 
+//Header, un composant Footer et un composant principal. Le composant 
+//principal contient des routes qui mènent à la page d'accueil,
+// à la page À propos, à la page FicheLogement et à la page d'erreur. 
+//La page d'accueil affiche un contenu, la page À propos affiche des 
+//informations sur l'application, la page FicheLogement affiche des 
+//informations sur un logement spécifique et la page d'erreur affiche 
+//un message d'erreur en cas de problème.
+
 function App() {
 	return (
 		<div className="App">
